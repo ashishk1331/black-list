@@ -1,9 +1,9 @@
-import { Eye } from "@phosphor-icons/react";
+import { EyeIcon } from "@heroicons/react/24/solid"
 
 export default function Footer(props) {
 	return (
 		<footer className="w-full pt-8 my-16 border-t-2 border-zinc-900 flex flex-col items-center gap-6">
-			<Eye weight="fill" size={32} className="fill-purple" />
+			<EyeIcon className="w-8 h-8 fill-purple" />
 			<p className="text-center text-zinc-700">
 				Curated by{" "}
 				<a
@@ -20,9 +20,9 @@ export default function Footer(props) {
 				</a>
 				.
 				<br />
-				Icons from the fabulaous{" "}
-				<a href="https://phosphoricons.com/" className="border-b-2 border-zinc-700">
-					Phosphor Icons
+				Icons from the limited{" "}
+				<a href="https://heroicons.com/" className="border-b-2 border-zinc-700">
+					Hero Icons
 				</a>
 				.
 				<br />

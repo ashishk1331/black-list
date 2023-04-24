@@ -18,7 +18,7 @@
     "tailwindcss": "3.3.1"
   },
   "devDependencies": {
-    "@notionhq/client": "^2.2.4",
-    "@phosphor-icons/react": "^2.0.8"
+    "@heroicons/react": "^2.0.17",
+    "@notionhq/client": "^2.2.4"
   }
 }
