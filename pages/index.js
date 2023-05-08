@@ -4,6 +4,7 @@ import { Client } from "@notionhq/client";
 
 import Task from "../components/Task";
 import Header from "../components/Header";
+import Share from '../components/Share'
 import Footer from "../components/Footer";
 
 export default function Home(props) {
@@ -44,13 +45,16 @@ export default function Home(props) {
 
                 <div className="flex flex-wrap items-center gap-3 my-4 border-2 border-zinc-900 rounded p-3 px-6 italic text-lg text-zinc-600">
                     {props.comment}
-                </div>
+                </div>                
 
                 <ul className="pt-3">
                     {props.posts.map((i) => (
                         <Task key={i.id} {...i} />
                     ))}
                 </ul>
+
+                <Share />
+
                 <Footer />
             </main>
         </>
