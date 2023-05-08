@@ -1,12 +1,11 @@
-import { ArrowUpRightIcon, MegaphoneIcon } from "@heroicons/react/24/solid"
+import { ArrowUpRightIcon, VideoCameraIcon } from "@heroicons/react/24/solid"
 import Button from './Button'
 import Image from 'next/image'
 
 export default function Task(props){
 	return (
 		<li className="flex flex-wrap items-center gap-3 my-4 border-2 border-zinc-900 rounded p-3">
-			<MegaphoneIcon className="w-6 h-6 fill-purple m-3" />
-			{/*<Armchair className="w-6 h-6 fill-purple m-3" weight="fill" />*/}
+			<VideoCameraIcon className="w-6 h-6 fill-purple m-3" />
 			<div className="w-full md:w-fit ms-3 md:mx-0 order-last md:order-none flex flex-col gap-2">
 				<h1 className="text-xl">
 					{props.Title}
